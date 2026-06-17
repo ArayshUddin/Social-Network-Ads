@@ -1,0 +1,37 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated outputs
+model_comparison.png
+decision_boundary.png
+distribution.png
+*.png
+
+# Archives / temp files
+*.zip
+files*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ML model artifacts
+*.pkl
+*.joblib
